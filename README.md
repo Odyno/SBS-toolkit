@@ -2,6 +2,10 @@ SBS-toolkit
 ===========
 This is a Java toolkit that parses messages containing Mode S [ADS-B](http://en.wikipedia.org/wiki/Automatic_dependent_surveillance-broadcast) aircraft data.
 
+Master   [![Build Status](https://travis-ci.org/Odyno/SBS-toolkit.png?branch=master)](https://travis-ci.org/Odyno/SBS-toolkit)
+
+
+
 
 SBS Socket Services
 --------------------------------
