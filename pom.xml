@@ -21,6 +21,24 @@
     </properties>
 
 
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/Odyno/SBS-toolkit/issues</url>
+    </issueManagement>
+    <organization>
+        <name>www.staniscia.net</name>
+        <url>http://www.staniscia.net</url>
+    </organization>
+    <ciManagement>
+        <url>https://travis-ci.org/Odyno/SBS-toolkit</url>
+        <system>travis-ci.org</system>
+    </ciManagement>
+    <repositories>
+        <repository>
+            <id>Alessandro-Staniscia-repo</id>
+            <url>http://www.staniscia.net/repository/release</url>
+        </repository>
+    </repositories>
     <build>
         <plugins>
             <plugin>
