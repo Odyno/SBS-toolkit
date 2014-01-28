@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
 
-<coverage line-rate="0.050473186119873815" branch-rate="0.0" lines-covered="16" lines-valid="317" branches-covered="0" branches-valid="90" complexity="1.1395348837209303" version="2.0.3" timestamp="1390940654036">
+<coverage line-rate="0.050473186119873815" branch-rate="0.0" lines-covered="16" lines-valid="317" branches-covered="0" branches-valid="90" complexity="1.1395348837209303" version="2.0.3" timestamp="1390941352586">
 	<sources>
 		<source>--source</source>
 		<source>W:/SBS-toolkit/sbs1-parser-ascii/src/main/java</source>
@@ -740,23 +740,23 @@
 						</method>
 						<method name="getDefaultParser" signature="()Lnet/staniscia/sbs1/SBS1Parser;" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="11" hits="1" branch="false"/>
+								<line number="11" hits="2" branch="false"/>
 							</lines>
 						</method>
 					</methods>
 					<lines>
 						<line number="8" hits="0" branch="false"/>
-						<line number="11" hits="1" branch="false"/>
+						<line number="11" hits="2" branch="false"/>
 					</lines>
 				</class>
 				<class name="net.staniscia.sbs1.parser.SBS1SimpleListenerCaller" filename="net/staniscia/sbs1/parser/SBS1SimpleListenerCaller.java" line-rate="0.125" branch-rate="0.0" complexity="1.4193548387096775">
 					<methods>
 						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="18" hits="1" branch="false"/>
-								<line number="20" hits="1" branch="false"/>
-								<line number="21" hits="1" branch="false"/>
-								<line number="22" hits="1" branch="false"/>
+								<line number="18" hits="2" branch="false"/>
+								<line number="20" hits="2" branch="false"/>
+								<line number="21" hits="2" branch="false"/>
+								<line number="22" hits="2" branch="false"/>
 							</lines>
 						</method>
 						<method name="doStop" signature="()V" line-rate="0.0" branch-rate="1.0">
@@ -777,14 +777,14 @@
 						</method>
 						<method name="register" signature="(Lnet/staniscia/sbs1/SBS1Observer;)V" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="25" hits="1" branch="false"/>
-								<line number="26" hits="1" branch="false"/>
+								<line number="25" hits="2" branch="false"/>
+								<line number="26" hits="2" branch="false"/>
 							</lines>
 						</method>
 						<method name="unRegister" signature="(Lnet/staniscia/sbs1/SBS1Observer;)V" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="29" hits="1" branch="false"/>
-								<line number="30" hits="1" branch="false"/>
+								<line number="29" hits="2" branch="false"/>
+								<line number="30" hits="2" branch="false"/>
 							</lines>
 						</method>
 						<method name="update" signature="(Lnet/staniscia/sbs1/msg/AIR;)V" line-rate="0.0" branch-rate="0.0">
@@ -945,14 +945,14 @@
 						</method>
 					</methods>
 					<lines>
-						<line number="18" hits="1" branch="false"/>
-						<line number="20" hits="1" branch="false"/>
-						<line number="21" hits="1" branch="false"/>
-						<line number="22" hits="1" branch="false"/>
-						<line number="25" hits="1" branch="false"/>
-						<line number="26" hits="1" branch="false"/>
-						<line number="29" hits="1" branch="false"/>
-						<line number="30" hits="1" branch="false"/>
+						<line number="18" hits="2" branch="false"/>
+						<line number="20" hits="2" branch="false"/>
+						<line number="21" hits="2" branch="false"/>
+						<line number="22" hits="2" branch="false"/>
+						<line number="25" hits="2" branch="false"/>
+						<line number="26" hits="2" branch="false"/>
+						<line number="29" hits="2" branch="false"/>
+						<line number="30" hits="2" branch="false"/>
 						<line number="33" hits="0" branch="true" condition-coverage="0% (0/2)">
 							<conditions>
 								<condition number="0" type="jump" coverage="0%"/>
@@ -1331,9 +1331,9 @@
 					<methods>
 						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="17" hits="1" branch="false"/>
-								<line number="18" hits="1" branch="false"/>
-								<line number="19" hits="1" branch="false"/>
+								<line number="17" hits="2" branch="false"/>
+								<line number="18" hits="2" branch="false"/>
+								<line number="19" hits="2" branch="false"/>
 							</lines>
 						</method>
 						<method name="cancel" signature="()V" line-rate="0.0" branch-rate="1.0">
@@ -1460,25 +1460,25 @@
 						</method>
 						<method name="register" signature="(Lnet/staniscia/sbs1/SBS1Observer;)V" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="23" hits="1" branch="false"/>
-								<line number="24" hits="1" branch="false"/>
+								<line number="23" hits="2" branch="false"/>
+								<line number="24" hits="2" branch="false"/>
 							</lines>
 						</method>
 						<method name="unRegister" signature="(Lnet/staniscia/sbs1/SBS1Observer;)V" line-rate="1.0" branch-rate="1.0">
 							<lines>
-								<line number="28" hits="1" branch="false"/>
-								<line number="29" hits="1" branch="false"/>
+								<line number="28" hits="2" branch="false"/>
+								<line number="29" hits="2" branch="false"/>
 							</lines>
 						</method>
 					</methods>
 					<lines>
-						<line number="17" hits="1" branch="false"/>
-						<line number="18" hits="1" branch="false"/>
-						<line number="19" hits="1" branch="false"/>
-						<line number="23" hits="1" branch="false"/>
-						<line number="24" hits="1" branch="false"/>
-						<line number="28" hits="1" branch="false"/>
-						<line number="29" hits="1" branch="false"/>
+						<line number="17" hits="2" branch="false"/>
+						<line number="18" hits="2" branch="false"/>
+						<line number="19" hits="2" branch="false"/>
+						<line number="23" hits="2" branch="false"/>
+						<line number="24" hits="2" branch="false"/>
+						<line number="28" hits="2" branch="false"/>
+						<line number="29" hits="2" branch="false"/>
 						<line number="33" hits="0" branch="true" condition-coverage="0% (0/2)">
 							<conditions>
 								<condition number="0" type="jump" coverage="0%"/>
