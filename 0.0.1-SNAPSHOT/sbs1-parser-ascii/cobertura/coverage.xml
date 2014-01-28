@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
 
-<coverage line-rate="0.05263157894736842" branch-rate="0.0" lines-covered="16" lines-valid="304" branches-covered="0" branches-valid="90" complexity="1.1395348837209303" version="2.0.3" timestamp="1390949737077">
+<coverage line-rate="0.050473186119873815" branch-rate="0.0" lines-covered="16" lines-valid="317" branches-covered="0" branches-valid="90" complexity="1.1395348837209303" version="2.0.3" timestamp="1390951270922">
 	<sources>
 		<source>--source</source>
 		<source>W:/SBS-toolkit/sbs1-parser-ascii/src/main/java</source>
@@ -729,7 +729,7 @@
 				</class>
 			</classes>
 		</package>
-		<package name="net.staniscia.sbs1.parser" line-rate="0.11347517730496454" branch-rate="0.0" complexity="1.75">
+		<package name="net.staniscia.sbs1.parser" line-rate="0.1038961038961039" branch-rate="0.0" complexity="1.75">
 			<classes>
 				<class name="net.staniscia.sbs1.parser.ParserFactory" filename="net/staniscia/sbs1/parser/ParserFactory.java" line-rate="0.5" branch-rate="1.0" complexity="1.0">
 					<methods>
@@ -749,7 +749,7 @@
 						<line number="11" hits="1" branch="false"/>
 					</lines>
 				</class>
-				<class name="net.staniscia.sbs1.parser.SBS1SimpleListenerCaller" filename="net/staniscia/sbs1/parser/SBS1SimpleListenerCaller.java" line-rate="0.1568627450980392" branch-rate="0.0" complexity="1.4193548387096775">
+				<class name="net.staniscia.sbs1.parser.SBS1SimpleListenerCaller" filename="net/staniscia/sbs1/parser/SBS1SimpleListenerCaller.java" line-rate="0.125" branch-rate="0.0" complexity="1.4193548387096775">
 					<methods>
 						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
 							<lines>
@@ -795,6 +795,7 @@
 									</conditions>
 								</line>
 								<line number="164" hits="0" branch="false"/>
+								<line number="170" hits="0" branch="false"/>
 								<line number="171" hits="0" branch="false"/>
 							</lines>
 						</method>
@@ -806,6 +807,7 @@
 									</conditions>
 								</line>
 								<line number="188" hits="0" branch="false"/>
+								<line number="194" hits="0" branch="false"/>
 								<line number="195" hits="0" branch="false"/>
 							</lines>
 						</method>
@@ -817,6 +819,7 @@
 									</conditions>
 								</line>
 								<line number="140" hits="0" branch="false"/>
+								<line number="146" hits="0" branch="false"/>
 								<line number="147" hits="0" branch="false"/>
 							</lines>
 						</method>
@@ -828,6 +831,7 @@
 									</conditions>
 								</line>
 								<line number="44" hits="0" branch="false"/>
+								<line number="50" hits="0" branch="false"/>
 								<line number="51" hits="0" branch="false"/>
 							</lines>
 						</method>
@@ -839,6 +843,7 @@
 									</conditions>
 								</line>
 								<line number="56" hits="0" branch="false"/>
+								<line number="62" hits="0" branch="false"/>
 								<line number="63" hits="0" branch="false"/>
 							</lines>
 						</method>
@@ -850,6 +855,7 @@
 									</conditions>
 								</line>
 								<line number="68" hits="0" branch="false"/>
+								<line number="74" hits="0" branch="false"/>
 								<line number="75" hits="0" branch="false"/>
 							</lines>
 						</method>
@@ -861,6 +867,7 @@
 									</conditions>
 								</line>
 								<line number="80" hits="0" branch="false"/>
+								<line number="86" hits="0" branch="false"/>
 								<line number="87" hits="0" branch="false"/>
 							</lines>
 						</method>
@@ -872,6 +879,7 @@
 									</conditions>
 								</line>
 								<line number="92" hits="0" branch="false"/>
+								<line number="98" hits="0" branch="false"/>
 								<line number="99" hits="0" branch="false"/>
 							</lines>
 						</method>
@@ -883,6 +891,7 @@
 									</conditions>
 								</line>
 								<line number="104" hits="0" branch="false"/>
+								<line number="110" hits="0" branch="false"/>
 								<line number="111" hits="0" branch="false"/>
 							</lines>
 						</method>
@@ -894,6 +903,7 @@
 									</conditions>
 								</line>
 								<line number="116" hits="0" branch="false"/>
+								<line number="122" hits="0" branch="false"/>
 								<line number="123" hits="0" branch="false"/>
 							</lines>
 						</method>
@@ -905,6 +915,7 @@
 									</conditions>
 								</line>
 								<line number="128" hits="0" branch="false"/>
+								<line number="134" hits="0" branch="false"/>
 								<line number="135" hits="0" branch="false"/>
 							</lines>
 						</method>
@@ -916,6 +927,7 @@
 									</conditions>
 								</line>
 								<line number="152" hits="0" branch="false"/>
+								<line number="158" hits="0" branch="false"/>
 								<line number="159" hits="0" branch="false"/>
 							</lines>
 						</method>
@@ -927,6 +939,7 @@
 									</conditions>
 								</line>
 								<line number="176" hits="0" branch="false"/>
+								<line number="182" hits="0" branch="false"/>
 								<line number="183" hits="0" branch="false"/>
 							</lines>
 						</method>
@@ -954,6 +967,7 @@
 							</conditions>
 						</line>
 						<line number="44" hits="0" branch="false"/>
+						<line number="50" hits="0" branch="false"/>
 						<line number="51" hits="0" branch="false"/>
 						<line number="55" hits="0" branch="true" condition-coverage="0% (0/2)">
 							<conditions>
@@ -961,6 +975,7 @@
 							</conditions>
 						</line>
 						<line number="56" hits="0" branch="false"/>
+						<line number="62" hits="0" branch="false"/>
 						<line number="63" hits="0" branch="false"/>
 						<line number="67" hits="0" branch="true" condition-coverage="0% (0/2)">
 							<conditions>
@@ -968,6 +983,7 @@
 							</conditions>
 						</line>
 						<line number="68" hits="0" branch="false"/>
+						<line number="74" hits="0" branch="false"/>
 						<line number="75" hits="0" branch="false"/>
 						<line number="79" hits="0" branch="true" condition-coverage="0% (0/2)">
 							<conditions>
@@ -975,6 +991,7 @@
 							</conditions>
 						</line>
 						<line number="80" hits="0" branch="false"/>
+						<line number="86" hits="0" branch="false"/>
 						<line number="87" hits="0" branch="false"/>
 						<line number="91" hits="0" branch="true" condition-coverage="0% (0/2)">
 							<conditions>
@@ -982,6 +999,7 @@
 							</conditions>
 						</line>
 						<line number="92" hits="0" branch="false"/>
+						<line number="98" hits="0" branch="false"/>
 						<line number="99" hits="0" branch="false"/>
 						<line number="103" hits="0" branch="true" condition-coverage="0% (0/2)">
 							<conditions>
@@ -989,6 +1007,7 @@
 							</conditions>
 						</line>
 						<line number="104" hits="0" branch="false"/>
+						<line number="110" hits="0" branch="false"/>
 						<line number="111" hits="0" branch="false"/>
 						<line number="115" hits="0" branch="true" condition-coverage="0% (0/2)">
 							<conditions>
@@ -996,6 +1015,7 @@
 							</conditions>
 						</line>
 						<line number="116" hits="0" branch="false"/>
+						<line number="122" hits="0" branch="false"/>
 						<line number="123" hits="0" branch="false"/>
 						<line number="127" hits="0" branch="true" condition-coverage="0% (0/2)">
 							<conditions>
@@ -1003,6 +1023,7 @@
 							</conditions>
 						</line>
 						<line number="128" hits="0" branch="false"/>
+						<line number="134" hits="0" branch="false"/>
 						<line number="135" hits="0" branch="false"/>
 						<line number="139" hits="0" branch="true" condition-coverage="0% (0/2)">
 							<conditions>
@@ -1010,6 +1031,7 @@
 							</conditions>
 						</line>
 						<line number="140" hits="0" branch="false"/>
+						<line number="146" hits="0" branch="false"/>
 						<line number="147" hits="0" branch="false"/>
 						<line number="151" hits="0" branch="true" condition-coverage="0% (0/2)">
 							<conditions>
@@ -1017,6 +1039,7 @@
 							</conditions>
 						</line>
 						<line number="152" hits="0" branch="false"/>
+						<line number="158" hits="0" branch="false"/>
 						<line number="159" hits="0" branch="false"/>
 						<line number="163" hits="0" branch="true" condition-coverage="0% (0/2)">
 							<conditions>
@@ -1024,6 +1047,7 @@
 							</conditions>
 						</line>
 						<line number="164" hits="0" branch="false"/>
+						<line number="170" hits="0" branch="false"/>
 						<line number="171" hits="0" branch="false"/>
 						<line number="175" hits="0" branch="true" condition-coverage="0% (0/2)">
 							<conditions>
@@ -1031,6 +1055,7 @@
 							</conditions>
 						</line>
 						<line number="176" hits="0" branch="false"/>
+						<line number="182" hits="0" branch="false"/>
 						<line number="183" hits="0" branch="false"/>
 						<line number="187" hits="0" branch="true" condition-coverage="0% (0/2)">
 							<conditions>
@@ -1038,6 +1063,7 @@
 							</conditions>
 						</line>
 						<line number="188" hits="0" branch="false"/>
+						<line number="194" hits="0" branch="false"/>
 						<line number="195" hits="0" branch="false"/>
 					</lines>
 				</class>
