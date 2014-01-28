@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
 
-<coverage line-rate="0.0" branch-rate="0.0" lines-covered="0" lines-valid="29" branches-covered="0" branches-valid="16" complexity="1.6666666666666667" version="2.0.3" timestamp="1390940850132">
+<coverage line-rate="0.0" branch-rate="0.0" lines-covered="0" lines-valid="29" branches-covered="0" branches-valid="16" complexity="1.6666666666666667" version="2.0.3" timestamp="1390941562206">
 	<sources>
 		<source>W:/SBS-toolkit/sbs1-socket-services/src/main/java</source>
 		<source>--source</source>
