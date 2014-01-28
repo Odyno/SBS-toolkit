@@ -26,11 +26,9 @@
             </gitHub>
             <twitter>
                 <user>alexstani</user>
-                <!-- <showUser>true</showUser> -->
+                <showUser>true</showUser>
                 <showFollowers>true</showFollowers>
             </twitter>
-            <googlePlusOne/>
-            <facebookLike/>
         </fluidoSkin>
     </custom>
 </project>
