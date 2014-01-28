@@ -46,16 +46,16 @@ under the License.
           <tbody>
                           <tr>
                 <td>
-                  <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.msg.AIR.java">net/staniscia/sbs1/msg/AIR.java</a>
+                  <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.SBS1Observer.java">net/staniscia/sbs1/SBS1Observer.java</a>
                 </td>
                 <td>
                   0
                 </td>
                 <td>
-                  16
+                  13
                 </td>
                 <td>
-                  19
+                  29
                 </td>
               </tr>
                           <tr>
@@ -74,16 +74,16 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.SBS1Observer.java">net/staniscia/sbs1/SBS1Observer.java</a>
+                  <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.msg.AIR.java">net/staniscia/sbs1/msg/AIR.java</a>
                 </td>
                 <td>
                   0
                 </td>
                 <td>
-                  13
+                  16
                 </td>
                 <td>
-                  29
+                  19
                 </td>
               </tr>
                           <tr>
@@ -102,6 +102,34 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.msg.SBS1Message.java">net/staniscia/sbs1/msg/SBS1Message.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.msg.MSG5.java">net/staniscia/sbs1/msg/MSG5.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  24
+                </td>
+                <td>
+                  26
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.msg.MSG4.java">net/staniscia/sbs1/msg/MSG4.java</a>
                 </td>
                 <td>
@@ -116,6 +144,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.msg.SEL.java">net/staniscia/sbs1/msg/SEL.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  18
+                </td>
+                <td>
+                  20
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.net.SBS1SocketService.java">net/staniscia/sbs1/net/SBS1SocketService.java</a>
                 </td>
                 <td>
@@ -126,6 +168,20 @@ under the License.
                 </td>
                 <td>
                   10
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.msg.SBS1FullMessage.java">net/staniscia/sbs1/msg/SBS1FullMessage.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  376
                 </td>
               </tr>
                           <tr>
@@ -158,6 +214,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.parser.ParserFactory.java">net/staniscia/sbs1/parser/ParserFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  3
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.msg.MSG3.java">net/staniscia/sbs1/msg/MSG3.java</a>
                 </td>
                 <td>
@@ -186,6 +256,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.msg.MsgFactory.java">net/staniscia/sbs1/msg/MsgFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  7
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.InvalidStatusFlagsException.java">net/staniscia/sbs1/InvalidStatusFlagsException.java</a>
                 </td>
                 <td>
@@ -200,16 +284,16 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.msg.MsgFactory.java">net/staniscia/sbs1/msg/MsgFactory.java</a>
+                  <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.msg.CLK.java">net/staniscia/sbs1/msg/CLK.java</a>
                 </td>
                 <td>
                   0
                 </td>
                 <td>
-                  1
+                  10
                 </td>
                 <td>
-                  7
+                  12
                 </td>
               </tr>
                           <tr>
@@ -256,6 +340,20 @@ under the License.
               </tr>
                           <tr>
                 <td>
+                  <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.util.SBS1LogObserver.java">net/staniscia/sbs1/util/SBS1LogObserver.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  70
+                </td>
+              </tr>
+                          <tr>
+                <td>
                   <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.net.SBS1SimpleSocketServices.java">net/staniscia/sbs1/net/SBS1SimpleSocketServices.java</a>
                 </td>
                 <td>
@@ -284,20 +382,6 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.msg.MSG2.java">net/staniscia/sbs1/msg/MSG2.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  28
-                </td>
-                <td>
-                  30
-                </td>
-              </tr>
-                          <tr>
-                <td>
                   <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.msg.ID.java">net/staniscia/sbs1/msg/ID.java</a>
                 </td>
                 <td>
@@ -312,100 +396,16 @@ under the License.
               </tr>
                           <tr>
                 <td>
-                  <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.msg.MSG5.java">net/staniscia/sbs1/msg/MSG5.java</a>
+                  <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.msg.MSG2.java">net/staniscia/sbs1/msg/MSG2.java</a>
                 </td>
                 <td>
                   0
                 </td>
                 <td>
-                  24
+                  28
                 </td>
                 <td>
-                  26
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.msg.SBS1Message.java">net/staniscia/sbs1/msg/SBS1Message.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  2
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.msg.SEL.java">net/staniscia/sbs1/msg/SEL.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  18
-                </td>
-                <td>
-                  20
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.msg.SBS1FullMessage.java">net/staniscia/sbs1/msg/SBS1FullMessage.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  376
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.parser.ParserFactory.java">net/staniscia/sbs1/parser/ParserFactory.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  1
-                </td>
-                <td>
-                  3
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.msg.CLK.java">net/staniscia/sbs1/msg/CLK.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  10
-                </td>
-                <td>
-                  12
-                </td>
-              </tr>
-                          <tr>
-                <td>
-                  <a href="http://www.staniscia.net/checkstyle.html#net.staniscia.sbs1.util.SBS1LogObserver.java">net/staniscia/sbs1/util/SBS1LogObserver.java</a>
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  0
-                </td>
-                <td>
-                  70
+                  30
                 </td>
               </tr>
                           <tr>
