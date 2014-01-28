@@ -18,46 +18,89 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <github.global.server>github</github.global.server>
     </properties>
 
-
     <issueManagement>
-        <system>GitHub</system>
         <url>https://github.com/Odyno/SBS-toolkit/issues</url>
+        <system>GitHub Issues</system>
     </issueManagement>
+
     <organization>
         <name>www.staniscia.net</name>
         <url>http://www.staniscia.net</url>
     </organization>
+
     <ciManagement>
         <url>https://travis-ci.org/Odyno/SBS-toolkit</url>
         <system>travis-ci.org</system>
     </ciManagement>
+
+    <distributionManagement>
+        <site>
+            <id>github-pages-site</id>
+            <name>Deployment through GitHub's site deployment plugin</name>
+            <url>${project.version}</url>
+        </site>
+    </distributionManagement>
+
+    <scm>
+        <url>https://github.com/Odyno/SBS-toolkit</url>
+        <connection>scm:git:git://github.com/Odyno/SBS-toolkit.git</connection>
+        <developerConnection>scm:git:git@github.com:Odyno/SBS-toolkit.git</developerConnection>
+    </scm>
+
     <repositories>
         <repository>
             <id>Alessandro-Staniscia-repo</id>
             <url>http://www.staniscia.net/repository/release</url>
         </repository>
     </repositories>
+
     <build>
+
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.3</version>
+                <dependencies>
+                    <dependency>
+                        <!--
+                        | allows markdown syntax for site generation. To use it place files below
+                        | src/site/markdown/[filename].md
+                        -->
+                        <groupId>org.apache.maven.doxia</groupId>
+                        <artifactId>doxia-module-markdown</artifactId>
+                        <version>1.5</version>
+                    </dependency>
+                </dependencies>
+                <configuration>
+                    <skipDeploy>true</skipDeploy>
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>com.github.github</groupId>
                 <artifactId>site-maven-plugin</artifactId>
-                <version>0.8</version>
+                <version>0.9</version>
                 <configuration>
-                    <message>Creating site for ${project.version}</message>
+                    <message>Creating site for ${project.artifactId}, ${project.version}</message>
+                    <!-- this does the trick to place every module in the correct subfolder -->
+                    <path>${project.distributionManagement.site.url}</path>
+                    <merge>true</merge>
                 </configuration>
                 <executions>
                     <execution>
+                        <id>github</id>
                         <goals>
                             <goal>site</goal>
                         </goals>
-                        <phase>site</phase>
+                        <phase>site-deploy</phase>
                     </execution>
                 </executions>
             </plugin>
         </plugins>
+
     </build>
 
 

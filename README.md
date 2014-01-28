@@ -1,13 +1,17 @@
-SBS-toolkit  [![Build Status](https://travis-ci.org/Odyno/SBS-toolkit.png?branch=master)](https://travis-ci.org/Odyno/SBS-toolkit)
+SBS-toolkit
 ===========
-This is a Java toolkit that parses messages containing Mode S [ADS-B](http://en.wikipedia.org/wiki/Automatic_dependent_surveillance-broadcast) aircraft data.
+This is a Java toolkit that manage messages containing Mode S [ADS-B](http://en.wikipedia.org/wiki/Automatic_dependent_surveillance-broadcast) aircraft data.
 
-SBS Socket Services
+* Continuous Integration: [https://travis-ci.org/Odyno/SBS-toolkit](https://travis-ci.org/Odyno/SBS-toolkit). Status: [![Build Status](https://travis-ci.org/Odyno/SBS-toolkit.png?branch=master)](https://travis-ci.org/Odyno/SBS-toolkit)
+* Maven Develop Site: [http://odyno.github.io/SBS-toolkit](http://odyno.github.io/SBS-toolkit)
+
+
+Module 1 - SBS Socket Services
 --------------------------------
 OSGI Modules  used to read a specific tcp port (default 30003) and parse the information in according of configurated SBS1-Parser ( default is SBS1 ascii format) and the configured listener (default java.util.logging  SBS1Observer implementation)
 
 
-"SBS-1 BaseStation" ascii format parser  
+Module 2 - SBS-1 BaseStation ascii format parser
 -----------------------------------------------
 This format has become a semi-standard way of sending ADS-B data. I use as specification the documentation of protocol at [http://www.homepages.mcb.net](http://www.homepages.mcb.net/bones/SBS/Article/Barebones42_Socket_Data.htm).
 The SBS-1 ascii messages are in a simple comma-delimited format; I show below examples of all possible messages ( [http://www.homepages.mcb.net](http://www.homepages.mcb.net/bones/SBS/Article/Barebones42_Socket_Data.htm)):
