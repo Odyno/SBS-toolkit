@@ -1,6 +1,6 @@
 <project>
     <body>
-        <menu ref="modules" />
+        <menu ref="modules"/>
         <menu ref="parent"/>
         <menu ref="reports"/>
     </body>
@@ -11,8 +11,8 @@
     </skin>
     <custom>
         <fluidoSkin>
-            <topBarEnabled>false</topBarEnabled>
-            <sideBarEnabled>true</sideBarEnabled>
+            <topBarEnabled>true</topBarEnabled>
+            <sideBarEnabled>false</sideBarEnabled>
             <breadcrumbDivider>»</breadcrumbDivider>
             <sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
             <googleSearch>
@@ -26,7 +26,7 @@
             </gitHub>
             <twitter>
                 <user>alexstani</user>
-               <!-- <showUser>true</showUser> -->
+                <!-- <showUser>true</showUser> -->
                 <showFollowers>true</showFollowers>
             </twitter>
             <googlePlusOne/>
