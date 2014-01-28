@@ -14,6 +14,11 @@
     <packaging>pom</packaging>
 
     <name>SBS Toolkit</name>
+    <description>
+        This is a Java toolkit that manage messages Mode S ADS-B aircraft data.
+        Automatic dependent surveillance-broadcast (ADS-B) is a cooperative surveillance technology for tracking aircraft.
+        The aircraft determines its own position via GNSS and periodically broadcasts this via a radio frequency (reference http://en.wikipedia.org/wiki/ADS-B ).
+    </description>
     <url>http://www.staniscia.net</url>
 
     <properties>
@@ -40,7 +45,7 @@
         <site>
             <id>github-pages-site</id>
             <name>Deployment through GitHub's site deployment plugin</name>
-            <url>site/${project.version}</url>
+            <url>${project.version}</url>
         </site>
     </distributionManagement>
 
